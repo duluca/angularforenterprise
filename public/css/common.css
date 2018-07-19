@@ -38,12 +38,11 @@ h3 {
 }
 
 .features ul {
-  list-style: none;
+  list-style: circle;
   padding: 0;
 }
 
 .features ul li:before {
-  content: '🗹';
   color: green;
   padding-right: 5px;
 }
@@ -60,10 +59,31 @@ h3 {
   align-content: space-between;
 }
 
+@media (max-width: 900px) {
+  .flex-container {
+    flex: 0.5;
+    flex-direction: column;
+  }
+}
+
 .col {
-  flex: 1;
+  flex: 0.5;
 }
 
 a {
-  color: gray
+  color: gray;
+}
+
+.packt-block {
+  transition: width 1s ease-in-out;
+  display: inline-block;
+  margin-right: 8%;
+  vertical-align: top;
+}
+
+@media (max-width: 600px) {
+  .packt-block {
+    display: block;
+    margin-right: 0%;
+  }
 }
