@@ -12,6 +12,11 @@ img {
   margin: 0 auto;
 }
 
+.copyright {
+  margin-top: 24px;
+  font-size: small;
+}
+
 .center {
   margin: auto;
   width: 75%;
@@ -49,7 +54,7 @@ h3 {
 
 .features li {
   display: none;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: left;
 }
 
