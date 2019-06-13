@@ -27,6 +27,7 @@ img {
 .hex {
   zoom: 0.5;
   max-height: 275px;
+  max-width: calc(30%);
 }
 
 .rhs {
