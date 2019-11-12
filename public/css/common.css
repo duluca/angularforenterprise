@@ -80,6 +80,10 @@ a {
   color: gray;
 }
 
+.img_href {
+  color: transparent
+}
+
 .packt-block {
   transition: width 1s ease-in-out;
   display: inline-block;
@@ -92,4 +96,10 @@ a {
     display: block;
     margin-right: 0%;
   }
+}
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
 }
