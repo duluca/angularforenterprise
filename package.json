@@ -6,7 +6,7 @@
   "scripts": {
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "image:build": "docker build . -t duluca/angularforenterprise",
+    "image:build": "docker build --platform linux/amd64,linux/arm64 . -t duluca/angularforenterprise",
     "image:run": "docker run -p 8080:80 duluca/angularforenterprise",
     "image:publish": "docker push duluca/angularforenterprise"
   },
